@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 var dateVar= new Date();
@@ -29,3 +30,9 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+=======
+function datum(){
+    let prikaziDatum= new Date();
+    document.getElementById('dugme').innerHTML='Danasnji datum i vreme: ' +prikaziDatum;
+}
+>>>>>>> 372ee8c2ef62bbce795c21a5e9341033e22aa3f2
