@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-
-
-var dateVar= new Date();
 
 var modal = document.getElementById("myModal");
 
