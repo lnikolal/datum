@@ -6,13 +6,17 @@
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
-    <script src='script.js'></script>
-
-
 </head>
 <body>
-    <div>
-        <button id="dugme" onclick="datum()">Prikazi datum</button>
-    </div>
+    <h2>Datum primer</h2>
+    <button id="myBtn">Prikazi datum</button>
+
+    <div id="myModal" class="modal">
+    <div class="modal-content">
+    <span class="close">&times;</span>
+    <p id="showDate"></p>
+  </div>
+ </div>
+ <script src='script.js'></script>
 </body>
 </html>
